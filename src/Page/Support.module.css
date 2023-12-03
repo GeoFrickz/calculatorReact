@@ -1,0 +1,82 @@
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #EEE;
+}
+
+.container{
+    border: 2px solid #eee;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.content{
+    display: flex;
+    gap: 50px;
+}
+
+.nameContainer{
+    display: flex;
+    gap: 20px;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="email"], textarea{
+    background-color: black;
+    color: #eee;
+    padding: 10px;
+    border: 1px solid #EEE;
+    border-radius: 3px;
+}
+
+input[type="email"]{
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button[type="submit"]{
+    padding: 10px 25px;
+    align-self: flex-end;
+    background-color: orange;
+    color: #eee;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+button[disabled]{
+    border: 1px solid #999;
+    background-color: #666;
+    color: #ccc;
+}
+
+#modal{
+    width: 800px;
+    padding: 50px 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#modal h1{
+    color: orange;
+}
