@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Button from '../Component/Button';
 import styles from './Support.module.css';
 import { useNavigate } from "react-router-dom";
-import { randomInt } from 'crypto';
 
 const Support = () => {
 
